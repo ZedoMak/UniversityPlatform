@@ -55,13 +55,13 @@ import { FaGithub } from "react-icons/fa";
             <hr className="w-full border-gray-300" />
           </div>
 
-          {/* Signup Form */}
+          {/* login form*/}
           <form onSubmit={handleSubmit} className="space-y-4">
               
             <input
               type="email"
               name="email"
-              placeholder="eg. yonas@gmail.com"
+              placeholder="eg. yabsra@gmail.com"
               className="w-full border rounded-lg px-3 py-2"
               onChange={handleChange}
               value={form.email}
