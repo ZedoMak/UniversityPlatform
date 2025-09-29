@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 
-export default function Signup() {
+ function Signup() {
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
@@ -24,7 +24,7 @@ export default function Signup() {
     <div className="min-h-screen flex">
       {/* Left Side */}
       <div className="hidden md:flex flex-col justify-center items-center w-1/2 bg-gradient-to-b from-purple-600 to-black text-white p-12">
-        <h1 className="text-3xl font-bold mb-4">OnlyPipe</h1>
+        <h1 className="text-3xl font-bold mb-4">uv</h1>
         <p className="text-lg mb-8 text-center">
           Get Started with Us <br />
           Complete these easy steps to register your account.
@@ -80,7 +80,7 @@ export default function Signup() {
               <input
                 type="text"
                 name="lastName"
-                placeholder="eg. yonas"
+                placeholder="eg. yabsra"
                 className="w-1/2 border rounded-lg px-3 py-2"
                 onChange={handleChange}
                 value={form.lastName}
@@ -123,3 +123,4 @@ export default function Signup() {
     </div>
   );
 }
+export default Signup;
